@@ -79,8 +79,8 @@ const Home: React.FC = () => {
 
   return (
     <div className="bg-sand text-primary">
-      <SEO 
-        title="Home" 
+      <SEO
+        title="Home"
         description="Welcome to Easy Shop and Customer Service. Discover the world's most exquisite gemstones and rare minerals, ethically sourced from the heart of the North."
         keywords="gemstones, mining, emeralds, sapphires, rubies, rare minerals, ethical sourcing"
       />
@@ -196,8 +196,8 @@ const Home: React.FC = () => {
               {/* Main Image - Large & Stable */}
               <div className="w-full h-full rounded-sm overflow-hidden shadow-[20px_20px_60px_-15px_rgba(0,0,0,0.1)]">
                 <img
-                  src={impact.image || "https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?q=80&w=2000"}
-                  alt="Sustainable Cotton"
+                  src={impact.image || "https://media.sketchfab.com/models/5d4a5bbdd8ca47258a9eaaa4e83cf700/thumbnails/597eb919b16e4dba889747ab71f62bbc/9ba529dd8ac1407a8d8f7114b5bad2c1.jpeg"}
+                  alt="Exquisite Diamond Display"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -212,8 +212,8 @@ const Home: React.FC = () => {
               >
                 <div className="w-full h-full overflow-hidden">
                   <img
-                    src="https://media.istockphoto.com/id/1137526672/photo/young-woman-with-fabric-samples-for-curtains-at-table-multiple-color-fabric-texture-samples.jpg?s=612x612&w=0&k=20&c=kfgV-pvqjYouJ0tfX_B691UKumlA1yTB4JEzXU-qQN0="
-                    alt="Fabric Detail"
+                    src="https://img.pikbest.com/wp/202405/gemstones-3d-render-of-alexandrite-gemstone-in-all-shapes-and-colors_9842166.jpg!sw800"
+                    alt="Raw Ruby Crystal Detail"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-[2s]"
                   />
                 </div>
@@ -254,8 +254,8 @@ const Home: React.FC = () => {
 
               <motion.h2
                 variants={{
-                    hidden: { opacity: 0, y: 40 },
-                    visible: { opacity: 1, y: 0 }
+                  hidden: { opacity: 0, y: 40 },
+                  visible: { opacity: 1, y: 0 }
                 }}
                 transition={{ duration: 1, ease: [0.33, 1, 0.68, 1] }}
                 className="text-6xl md:text-7xl font-sans font-light mb-10 leading-[1.1] text-primary"
