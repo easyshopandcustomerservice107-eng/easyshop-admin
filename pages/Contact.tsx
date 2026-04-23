@@ -21,8 +21,8 @@ const Contact: React.FC = () => {
     return (
         <div className="bg-sand min-h-screen">
             <SEO 
-                title="Contact the Vault" 
-                description="Contact Easy Shop and Customer Service for inquiries about rare gemstones, mineral specimens, or wholesale opportunities. Our gemologists are here to help."
+                title="Contact Us" 
+                description="Contact Easy Shop and Customer Service for any inquiries. We are here to help you with our premium wellness products and accessories."
             />
             {/* Hero Section */}
             <section className="bg-primary/5 py-12 px-6">
@@ -122,7 +122,7 @@ const Contact: React.FC = () => {
                                     </div>
                                     <div>
                                         <h3 className="font-sans font-medium text-primary mb-1">Email</h3>
-                                        <p className="text-primary/70">support@easyshop.com</p>
+                                        <p className="text-primary/70">easyshopandcustomerservice107@gmail.com</p>
                                         <p className="text-sm text-primary/50 mt-1">Our team responds within 24 hours</p>
                                     </div>
                                 </div>
@@ -132,9 +132,9 @@ const Contact: React.FC = () => {
                                         <Phone className="w-5 h-5 text-accent" />
                                     </div>
                                     <div>
-                                        <h3 className="font-sans font-medium text-primary mb-1">Phone</h3>
-                                        <p className="text-primary/70">+1 (800) GEMS-NOR</p>
-                                        <p className="text-sm text-primary/50 mt-1">Mon-Fri, 8am-5pm MST</p>
+                                        <h3 className="font-sans font-medium text-primary mb-1">Phone / WhatsApp</h3>
+                                        <p className="text-primary/70">+92312 3655556</p>
+                                        <p className="text-sm text-primary/50 mt-1">Mon-Sat, 9am-6pm</p>
                                     </div>
                                 </div>
 
@@ -143,11 +143,10 @@ const Contact: React.FC = () => {
                                         <MapPin className="w-5 h-5 text-accent" />
                                     </div>
                                     <div>
-                                        <h3 className="font-sans font-medium text-primary mb-1">Headquarters</h3>
+                                        <h3 className="font-sans font-medium text-primary mb-1">Location</h3>
                                         <p className="text-primary/70">
-                                            452 Mineral Range Road<br />
-                                            Yellowknife, NT X1A 2P7<br />
-                                            Canada
+                                            Namak Mandi Fawara Chowk<br />
+                                            Peshawar Sader
                                         </p>
                                     </div>
                                 </div>
@@ -159,12 +158,8 @@ const Contact: React.FC = () => {
                                 <h3 className="font-sans font-medium text-primary mb-4">Business Hours</h3>
                                 <div className="space-y-2 text-sm">
                                     <div className="flex justify-between">
-                                        <span className="text-primary/70">Monday - Friday</span>
+                                        <span className="text-primary/70">Monday - Saturday</span>
                                         <span className="text-primary font-medium">9:00 AM - 6:00 PM</span>
-                                    </div>
-                                    <div className="flex justify-between">
-                                        <span className="text-primary/70">Saturday</span>
-                                        <span className="text-primary font-medium">10:00 AM - 4:00 PM</span>
                                     </div>
                                     <div className="flex justify-between">
                                         <span className="text-primary/70">Sunday</span>
